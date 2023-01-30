@@ -221,21 +221,26 @@ span{
     margin-top: 25px;
     font-size: 15px;
  }
-        
+.seccion_one_principal{
+    display: block;
+}    
  .banner_{
     width: 200px;
     height: 200px;
-    margin:10px 55px 10px 55px
+    margin:10px 55px 10px 85px
  }
 
  .texto_banner{
-    margin-left: 30px;
+    margin-left: 70px;
     font-size: 25px;
  }
-
+.box_formulario{
+    width: 470px;
+    margin-left: 0;
+}
  .parrafo_banner{
     font-size: 20px;
-    margin-left: 100px;
+    margin-left: 135px;
  }
 
 .input-padron{
@@ -243,26 +248,26 @@ span{
     margin-left: 65px;
 }
 .texto_formulario{
-    margin-left: 50px;
+    margin-left: 85px;
 }
 .enviar{
-    margin-left: 55px;
+    margin-left: 75px;
 }
 .box_zonalibre{
 
     display: block;
 }
 .Zona_libre{
-    margin-left: 55px;
+    margin-left: 85px;
 }
 .texto_zonalibre{
-    margin-right: 70px;
+    margin-right: 0;
 }
 .Descripcion{
     display: block;
 }
 .Cuadro_texto{
-    margin-left: 60px;
+    margin-left: 85px;
     width: 200px;
     height: 300px;
 }
@@ -271,10 +276,10 @@ span{
 }
 .contacto{
     text-align: center;
-    margin-right: 85px;
+    
 }
 #redes{
     font-size: 25px;
-    margin-left: 12px;
+    margin-left: 25px;
 }
 }
