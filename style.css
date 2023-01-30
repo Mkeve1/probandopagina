@@ -1,0 +1,280 @@
+body{
+    margin: auto;
+}
+.header_principal{
+    display: flex;
+    justify-items: center;
+    background: #EFF2F8;
+}
+    
+.Caja_logo{
+    background-color: #00B0FF;
+}
+.logo_img{
+    height: 150px;
+    width: 250px;
+}
+
+.caja_texto_header{
+    margin-left: 15px;
+    font-family: 'Bebas Neue', cursive;
+}
+.texto_header{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.texto_header_parrafo{
+    font-size: 15px;
+    margin-top: 5px;
+
+}
+.box_texto_banner{
+    display: block;
+    
+}
+
+.seccion_one_principal{
+    display: flex;
+}
+.box_formulario{
+    width: 600px;
+    display: block;
+    background-color: #00B0FF;
+    margin-left: 150px;
+}
+.seccion_one_principal{
+    justify-content: space-between;
+    align-items: center;
+}
+.input-padron{
+    display: block;
+    margin: 20px 0 0 40px;
+    padding: 10px 25px;
+    width: 80%;
+}
+.enviar{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    margin: 25px 0 25px 85px;
+    width: 50%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: #F6470E;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+   
+}
+.texto_formulario{
+    margin-left: 70px;
+    color:#FEFDFD;
+    letter-spacing: 5px;
+    font-family: 'Bebas Neue', cursive;
+}
+span{
+    color: #F6470E;
+}
+.banner_{
+   width: 650px;
+   height: 490px;
+   margin-left: 25px;
+}
+
+.texto_banner{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    
+}
+
+.parrafo_banner{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+.check_box{
+    display: block;
+    height: 70px;
+    width: 650px;
+    background: #00B0FF;
+    justify-content: space-around;
+    font-family: 'Bebas Neue', cursive;
+    
+
+    
+}
+.texto_check{
+    color:#000000;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+}
+
+
+#class{
+    color: #F6470E;
+   margin-right: 10px;
+   font-size: 20px;
+   
+}
+
+.caja_banner{
+    display: flex;
+}
+
+.box_zonalibre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Zona_libre{
+   width: 200px;
+   height: 200px;
+}
+
+.texto_zonalibre{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #F6470E;
+    font-size: 35px;
+}
+
+.zona_libre{
+    background: #EFF2F8;
+}
+.Descripcion{
+    display: flex;
+    
+}
+.Cuadro_texto{
+   
+    margin:25px 0 25px 40px;
+    width: 300px;
+    height: 200px;
+    border:solid;
+    border-color: #707B7C
+    
+}
+.titulos_cuadro_texto{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color:#00B0FF ;
+   letter-spacing: 3px;
+   margin-left: 5px;
+   margin-bottom: 0;
+}
+
+.parrafo_cuadro_texto{
+ text-align: justify;
+ line-height: 22px;
+ margin:0 10px 0 10px;
+}
+.contenedor_contacto{
+    background-color:#707B7C;
+    align-items: center;
+    
+}
+.contacto{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+#redes{
+    padding: 1.15rem;
+    font-size: 40px;
+    margin-left: 5px; 
+}
+
+.contacto_seccion{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #707B7C;
+}
+.contenedor_footer{
+
+    height: 30px;
+    background: #212F3C
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    color: #FEFDFD;
+    font-size: 11px;
+}
+
+@media (max-width: 844px){
+    
+
+ .logo_img {
+        height: 150px;
+        width: 170px;}
+
+ .texto_header{
+    margin-top: 25px;
+    font-size: 15px;
+ }
+        
+ .banner_{
+    width: 200px;
+    height: 200px;
+    margin:10px 55px 10px 55px
+ }
+
+ .texto_banner{
+    margin-left: 30px;
+    font-size: 25px;
+ }
+
+ .parrafo_banner{
+    font-size: 20px;
+    margin-left: 100px;
+ }
+
+.input-padron{
+    width: 55%;
+    margin-left: 65px;
+}
+.texto_formulario{
+    margin-left: 50px;
+}
+.enviar{
+    margin-left: 55px;
+}
+.box_zonalibre{
+
+    display: block;
+}
+.Zona_libre{
+    margin-left: 55px;
+}
+.texto_zonalibre{
+    margin-right: 70px;
+}
+.Descripcion{
+    display: block;
+}
+.Cuadro_texto{
+    margin-left: 60px;
+    width: 200px;
+    height: 300px;
+}
+.contacto_seccion{
+    display: block;
+}
+.contacto{
+    text-align: center;
+    margin-right: 85px;
+}
+#redes{
+    font-size: 25px;
+    margin-left: 12px;
+}
+}
